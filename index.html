@@ -1,0 +1,232 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Hadara Gindenay </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+  </head>
+
+  <body class="center">
+    <!-- SOBRE DE BIENVENIDA -->
+    <div class="envelope-screen" id="envelopeScreen">
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+
+        <!-- Flap inferior -->
+        <div class="wax-seal" id="openEnvelope"></div>
+      </div>
+    </div>
+
+    <div class="invitation-content hidden" id="invitationContent">
+      <!-- TODO tu contenido actual -->
+
+      <div class="content">
+        <section class="section-home">
+          <div class="home-content">
+            <img class="home-img" alt="photo" src="./assets/img/1 (1).png" />
+            <div class="titulo">
+              <h1>Mi Bautizo</h1>
+              <h2>Hadara</h2>
+            </div>
+          </div>
+        </section>
+
+        <section class="musica">
+          <div class="music-card">
+            <div class="album-art"></div>
+            <div class="song-title">Final Fantasy</div>
+            <div class="artist-name"></div>
+
+            <button class="play-button" id="playPauseBtn">▶</button>
+
+            <div class="progress-container">
+              <div class="progress" id="progressBar"></div>
+            </div>
+
+            <audio
+              id="audioPlayer"
+              src="./assets/music/Medley 2002 - Final Fantasy I-III.mp3"
+            ></audio>
+            <!-- Cambia por tu archivo mp3 -->
+          </div>
+        </section>
+
+        <div class="palabras">
+          <p>
+            Hoy recibes la bendición de Dios y la luz de la fe que guiará tu camino toda la vida. 
+            «Dejen que los niños vengan a mí, y no se lo impidan, 
+            porque de ellos es el reino de Dios.» <b>Marcos 10:14</b> <br />
+          </p>
+          <small>Atte tus papás</small>
+        </div>
+
+        <section class="section-info">
+          <div class="overlay-section-info">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="box-info">
+           
+
+            <div class="padres">
+              <ul>
+                <li>Jeral Gonzalez y </li>
+                <li>Paulina Camacho</li>
+              </ul>
+            </div>
+
+            <div class="frase-p">
+              <p>
+                tienen el honor de invitarle a la celebración del
+              </p>
+            </div>
+
+            <div class="frase-l">
+              <h1>Bautizo</h1>
+              <p>de su adorada hija</p>
+            </div>
+
+            <div class="nombre">
+              <h2>Hadara</h2>
+              <h3>Gindenay </h3>
+            </div>
+
+            <div class="padrinos">
+              <p>Junto a su madrina</p>
+              <h2>
+                Fernanda Cárdenas 
+              </h2>
+            </div>
+
+            <div class="fecha">
+              <p>la celebración se realizará el día</p>
+            </div>
+
+            <div class="date-box">
+              <h2 class="dia">SÁBADO</h2>
+              <h1>18/04/2026</h1>
+              <h2 class="hora">a las 14:00 hrs</h2>
+            </div>
+          </div>
+        </section>
+
+        <div class="timer">
+          <h1 class="timer-titulo">Solo faltan:</h1>
+          <ul class="date-time">
+            <li>
+              <div class="time_number" id="dias"></div>
+              <div class="time_txt">Días</div>
+            </li>
+            <li>
+              <div class="time_number" id="horas"></div>
+              <div class="time_txt">Horas</div>
+            </li>
+            <li>
+              <div class="time_number" id="minutos"></div>
+              <div class="time_txt">Minutos</div>
+            </li>
+            <li>
+              <div class="time_number" id="segundos"></div>
+              <div class="time_txt">Segundos</div>
+            </li>
+          </ul>
+        </div>
+
+        <section class="section-place">
+          <div class="box-place">
+            <div class="place-info center">
+              <img
+                width="75"
+                src="./assets/icons/church.svg"
+                alt="church"
+                fill="#000000"
+              />
+              <div class="place-txt">
+                <h2>Ceremonia</h2>
+                <p><b>14:00 hrs</b> Parroquia del Sagrado Corazón de Jesús </p>
+              </div>
+            </div>
+            <a class="place-btn" href="https://maps.app.goo.gl/qbN3XbiniXiwiVd86" target="_blank"> VER UBICACIÓN </a>
+          </div>
+        </section>
+
+        <section class="section-place-salon">
+          <div class="box-place-salon">
+            <div class="place-info center">
+              <img width="120" src="./assets/icons/bola.png" alt="disco" />
+              <div class="place-txt fiesta">
+                <h2>Recepción</h2>
+                <p>
+                  <b>5:30</b> Calle sur 3 entre oriente 1 y 2, Mz348 Lt 10, colonia Santa Cruz, Valle de Chalco 
+                </p>
+              </div>
+            </div>
+            <a class="place-btn" href="https://maps.app.goo.gl/w8nAqfENRjjRW9oW9" target="_blank"> VER UBICACIÓN </a>
+          </div>
+        </section>
+
+        <section class="section-galeria">
+          <section class="section-info-adicional">
+            <div class="info-block info-clothes">
+              <img height="70" src="./assets/icons/Clothes.svg" alt="clothes" />
+              <h2>Vestimenta</h2>
+              <p>
+                La vestimenta es libre; les invitamos a elegir un atuendo elegante y acorde a esta ocasión tan especial.
+              </p>
+            </div>
+
+            <div class="info-separator">
+              <img
+                width="200"
+                src="./assets/img/separador.png"
+                alt="separator"
+              />
+            </div>
+
+            <div class="info-block info-envelope">
+              <img
+                width="70"
+                src="./assets/icons/envelope.svg"
+                alt="envelope"
+              />
+              <h2>Mesa de regalos</h2>
+              <p>
+                Tu presencia en este día tan especial es el mejor regalo.
+                Si deseas tener un detalle con nosotros, será recibido con aprecio.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section class="section-message">
+          <div class="box-message">
+            <p>
+              Los mejores momentos de la vida <br />
+              merecen ser compartidos
+            </p>
+            <b>¡Gracias por acompañarnos!</b>
+            <button class="confirmar">
+              <a href="https://wa.link/7ubfxv"> Confirmar asistencia </a>
+            </button>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          Diseñado por
+          <a
+            href="https://www.facebook.com/profile.php?id=61568997140138"
+            target="_blank"
+            >Mirai</a
+          >
+          @2026. Diseña tu invitación con nosotros
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
